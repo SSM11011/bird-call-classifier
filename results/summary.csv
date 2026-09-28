@@ -1,0 +1,26 @@
+,zero_shot,probe,probe_weighted,full
+clip_accuracy,0.861,0.965,0.965,0.949
+clip_balanced_accuracy,0.857,0.964,0.965,0.949
+clip_macro_f1,0.847,0.965,0.966,0.949
+recording_accuracy,0.95,0.973,0.973,0.973
+recording_macro_f1,0.924,0.967,0.967,0.963
+fold_macro_f1_std,0.046,0.017,0.016,0.029
+f1 Indian Cuckoo,0.897,0.973,0.973,0.949
+f1 Indian Eagle-Owl,0.635,0.95,0.952,0.947
+f1 Purple-rumped Sunbird,0.935,0.968,0.969,0.938
+f1 Zitting Cisticola,0.85,0.986,0.986,0.963
+f1 Red-vented Bulbul,0.919,0.949,0.949,0.945
+natural: none of the three,0.891,0.986,0.986,0.963
+natural: faint,0.774,0.93,0.933,0.924
+natural: noisy,0.768,0.941,0.941,0.924
+natural: overlap,0.909,0.943,0.945,0.937
+stress: faint,0.599,0.663,0.663,0.741
+stress: noisy,0.642,0.784,0.784,0.811
+stress: overlap,0.546,0.609,0.61,0.554
+"stress: overlap, both species in top-2",0.684,0.894,0.895,0.814
+"clip_macro_f1 (leave-recordist-out, probe_weighted)",,,0.96,
+f1 Indian Cuckoo (leave-recordist-out),,,0.963,
+f1 Indian Eagle-Owl (leave-recordist-out),,,0.948,
+f1 Purple-rumped Sunbird (leave-recordist-out),,,0.964,
+f1 Zitting Cisticola (leave-recordist-out),,,0.981,
+f1 Red-vented Bulbul (leave-recordist-out),,,0.944,

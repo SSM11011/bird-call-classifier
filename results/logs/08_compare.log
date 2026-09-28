@@ -1,0 +1,28 @@
+/home/ssm/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+Perch v2 · linear                macro-F1 0.966
+Perch v2 · linear +aug           macro-F1 0.949
+BirdNET v2.4 · linear            macro-F1 0.970
+BirdNET v2.4 · linear +aug       macro-F1 0.950
+PANNs CNN14 · linear             macro-F1 0.730
+PANNs CNN14 · linear +aug        macro-F1 0.763
+YAMNet · linear                  macro-F1 0.708
+YAMNet · linear +aug             macro-F1 0.716
+MFCC stats · linear              macro-F1 0.778
+MFCC stats · linear +aug         macro-F1 0.781
+                                              clip macro-F1       95% CI  recording macro-F1  stress faint  stress noisy
+method                                                                                                                  
+Perch v2 · zero-shot                               0.847349  0.802-0.887            0.923549      0.599119      0.642438
+Perch v2 · linear                                  0.965756  0.948-0.979            0.966980      0.662996      0.784141
+Perch v2 · linear +aug                             0.948588  0.924-0.970            0.963387      0.740822      0.810573
+BirdNET v2.4 · zero-shot                           0.938414  0.911-0.964            0.990135      0.629956      0.706314
+BirdNET v2.4 · linear                              0.969584  0.952-0.983            0.957489      0.647577      0.789280
+BirdNET v2.4 · linear +aug                         0.949511  0.925-0.968            0.953467      0.715125      0.807636
+PANNs CNN14 · linear                               0.729852  0.684-0.766            0.779981      0.523495      0.662261
+PANNs CNN14 · linear +aug                          0.763491  0.713-0.800            0.780188      0.558737      0.701175
+YAMNet · linear                                    0.707934  0.648-0.753            0.732758      0.436858      0.596916
+YAMNet · linear +aug                               0.715614  0.657-0.760            0.719158      0.497063      0.637298
+MFCC stats · linear                                0.777845  0.724-0.817            0.780609      0.495595      0.633627
+MFCC stats · linear +aug                           0.781010  0.728-0.821            0.782115      0.512482      0.662261
+EfficientNet-B0 (ImageNet) · end-to-end +aug       0.890128  0.852-0.922            0.913823      0.692364      0.781938
+Small CNN (scratch) · end-to-end +aug              0.892077  0.854-0.921            0.908345      0.685756      0.770191

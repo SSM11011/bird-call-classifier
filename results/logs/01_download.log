@@ -1,0 +1,50 @@
+Indian Cuckoo            available=  245 restricted=   0 manual=  0 selected=60
+Indian Eagle-Owl         available=   21 restricted=   0 manual=  0 selected=21
+Oriental Magpie-Robin    available=  851 restricted= 851 manual=  0 selected=0
+Purple-rumped Sunbird    available=   98 restricted=   0 manual=  0 selected=60
+Zitting Cisticola        available= 1325 restricted=   0 manual=  0 selected=60
+Red-vented Bulbul        available=  197 restricted=   0 manual=  0 selected=60
+                       downloaded
+species                          
+Indian Cuckoo                  60
+Indian Eagle-Owl               21
+Purple-rumped Sunbird          60
+Red-vented Bulbul              60
+Zitting Cisticola              60
+{
+ "A": {
+  "Indian Cuckoo": 16,
+  "Indian Eagle-Owl": 3,
+  "Purple-rumped Sunbird": 19,
+  "Red-vented Bulbul": 19,
+  "Zitting Cisticola": 14
+ },
+ "B": {
+  "Indian Cuckoo": 16,
+  "Indian Eagle-Owl": 16,
+  "Purple-rumped Sunbird": 24,
+  "Red-vented Bulbul": 21,
+  "Zitting Cisticola": 14
+ },
+ "C": {
+  "Indian Cuckoo": 16,
+  "Indian Eagle-Owl": 1,
+  "Purple-rumped Sunbird": 14,
+  "Red-vented Bulbul": 18,
+  "Zitting Cisticola": 13
+ },
+ "D": {
+  "Indian Cuckoo": 10,
+  "Indian Eagle-Owl": 0,
+  "Purple-rumped Sunbird": 3,
+  "Red-vented Bulbul": 2,
+  "Zitting Cisticola": 12
+ },
+ "E": {
+  "Indian Cuckoo": 2,
+  "Indian Eagle-Owl": 1,
+  "Purple-rumped Sunbird": 0,
+  "Red-vented Bulbul": 0,
+  "Zitting Cisticola": 7
+ }
+}

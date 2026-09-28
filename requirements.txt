@@ -1,0 +1,13 @@
+tensorflow>=2.16        # Perch v2 SavedModel (run on CPU)
+kagglehub>=0.3          # downloads Perch v2 from Kaggle Models
+torch>=2.2              # linear head
+soundfile>=0.12        # libsndfile >= 1.1 decodes mp3
+numpy
+scipy
+pandas
+scikit-learn>=1.3       # StratifiedGroupKFold
+matplotlib
+requests
+tqdm
+torchaudio              # MFCC / log-mel frontends
+timm                    # EfficientNet-B0 baseline (07_end_to_end.py)

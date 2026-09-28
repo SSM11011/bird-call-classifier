@@ -1,0 +1,99 @@
+/home/ssm/.local/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+fold 0: probe=0.961  probe_weighted=0.961  full=0.962
+fold 1: probe=0.937  probe_weighted=0.941  full=0.936
+fold 2: probe=0.956  probe_weighted=0.956  full=0.892
+fold 3: probe=0.984  probe_weighted=0.984  full=0.966
+fold 4: probe=0.982  probe_weighted=0.982  full=0.971
+CLIP LEVEL (5 s windows, out-of-fold)
+                       precision    recall  f1-score   support
+
+        Indian Cuckoo      0.940     0.959     0.949       243
+     Indian Eagle-Owl      0.972     0.924     0.947       262
+Purple-rumped Sunbird      0.922     0.956     0.938       271
+    Zitting Cisticola      0.958     0.968     0.963       281
+    Red-vented Bulbul      0.953     0.938     0.945       305
+
+             accuracy                          0.949      1362
+            macro avg      0.949     0.949     0.949      1362
+         weighted avg      0.949     0.949     0.949      1362
+
+RECORDING LEVEL (clip log-probs averaged)
+                       precision    recall  f1-score   support
+
+        Indian Cuckoo      0.983     0.967     0.975        60
+     Indian Eagle-Owl      0.947     0.857     0.900        21
+Purple-rumped Sunbird      0.967     0.983     0.975        60
+    Zitting Cisticola      0.968     1.000     0.984        60
+    Red-vented Bulbul      0.983     0.983     0.983        60
+
+             accuracy                          0.973       261
+            macro avg      0.970     0.958     0.963       261
+         weighted avg      0.973     0.973     0.973       261
+
+ZERO-SHOT PERCH, CLIP LEVEL
+                       precision    recall  f1-score   support
+
+        Indian Cuckoo      0.847     0.955     0.897       243
+     Indian Eagle-Owl      1.000     0.466     0.635       262
+Purple-rumped Sunbird      0.972     0.900     0.935       271
+    Zitting Cisticola      0.739     1.000     0.850       281
+    Red-vented Bulbul      0.878     0.964     0.919       305
+
+             accuracy                          0.861      1362
+            macro avg      0.887     0.857     0.847      1362
+         weighted avg      0.886     0.861     0.850      1362
+
+                                                     zero_shot  probe  probe_weighted   full
+clip_accuracy                                            0.861  0.965           0.965  0.949
+clip_balanced_accuracy                                   0.857  0.964           0.965  0.949
+clip_macro_f1                                            0.847  0.965           0.966  0.949
+recording_accuracy                                       0.950  0.973           0.973  0.973
+recording_macro_f1                                       0.924  0.967           0.967  0.963
+fold_macro_f1_std                                        0.046  0.017           0.016  0.029
+f1 Indian Cuckoo                                         0.897  0.973           0.973  0.949
+f1 Indian Eagle-Owl                                      0.635  0.950           0.952  0.947
+f1 Purple-rumped Sunbird                                 0.935  0.968           0.969  0.938
+f1 Zitting Cisticola                                     0.850  0.986           0.986  0.963
+f1 Red-vented Bulbul                                     0.919  0.949           0.949  0.945
+natural: none of the three                               0.891  0.986           0.986  0.963
+natural: faint                                           0.774  0.930           0.933  0.924
+natural: noisy                                           0.768  0.941           0.941  0.924
+natural: overlap                                         0.909  0.943           0.945  0.937
+stress: faint                                            0.599  0.663           0.663  0.741
+stress: noisy                                            0.642  0.784           0.784  0.811
+stress: overlap                                          0.546  0.609           0.610  0.554
+stress: overlap, both species in top-2                   0.684  0.894           0.895  0.814
+clip_macro_f1 (leave-recordist-out, probe_weighted)        NaN    NaN           0.960    NaN
+f1 Indian Cuckoo (leave-recordist-out)                     NaN    NaN           0.963    NaN
+f1 Indian Eagle-Owl (leave-recordist-out)                  NaN    NaN           0.948    NaN
+f1 Purple-rumped Sunbird (leave-recordist-out)             NaN    NaN           0.964    NaN
+f1 Zitting Cisticola (leave-recordist-out)                 NaN    NaN           0.981    NaN
+f1 Red-vented Bulbul (leave-recordist-out)                 NaN    NaN           0.944    NaN
+{
+ "threshold": 0.9158380627632141,
+ "coverage": 0.906754772393539,
+ "accuracy_when_confident": 0.9805668016194332,
+ "per_class": {
+  "Indian Cuckoo": {
+   "coverage": 0.9218106995884774,
+   "accuracy_when_confident": 0.9955357142857143
+  },
+  "Indian Eagle-Owl": {
+   "coverage": 0.8587786259541985,
+   "accuracy_when_confident": 0.9688888888888889
+  },
+  "Purple-rumped Sunbird": {
+   "coverage": 0.9298892988929889,
+   "accuracy_when_confident": 1.0
+  },
+  "Zitting Cisticola": {
+   "coverage": 0.8896797153024911,
+   "accuracy_when_confident": 0.976
+  },
+  "Red-vented Bulbul": {
+   "coverage": 0.9311475409836065,
+   "accuracy_when_confident": 0.9647887323943662
+  }
+ }
+}

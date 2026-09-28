@@ -1,0 +1,38 @@
+CLIP LEVEL (5 s windows, out-of-fold)
+                       precision    recall  f1-score   support
+
+        Indian Cuckoo      0.940     0.959     0.949       243
+     Indian Eagle-Owl      0.972     0.924     0.947       262
+Purple-rumped Sunbird      0.922     0.956     0.938       271
+    Zitting Cisticola      0.958     0.968     0.963       281
+    Red-vented Bulbul      0.953     0.938     0.945       305
+
+             accuracy                          0.949      1362
+            macro avg      0.949     0.949     0.949      1362
+         weighted avg      0.949     0.949     0.949      1362
+
+RECORDING LEVEL (clip log-probs averaged)
+                       precision    recall  f1-score   support
+
+        Indian Cuckoo      0.983     0.967     0.975        60
+     Indian Eagle-Owl      0.947     0.857     0.900        21
+Purple-rumped Sunbird      0.967     0.983     0.975        60
+    Zitting Cisticola      0.968     1.000     0.984        60
+    Red-vented Bulbul      0.983     0.983     0.983        60
+
+             accuracy                          0.973       261
+            macro avg      0.970     0.958     0.963       261
+         weighted avg      0.973     0.973     0.973       261
+
+ZERO-SHOT PERCH, CLIP LEVEL
+                       precision    recall  f1-score   support
+
+        Indian Cuckoo      0.847     0.955     0.897       243
+     Indian Eagle-Owl      1.000     0.466     0.635       262
+Purple-rumped Sunbird      0.972     0.900     0.935       271
+    Zitting Cisticola      0.739     1.000     0.850       281
+    Red-vented Bulbul      0.878     0.964     0.919       305
+
+             accuracy                          0.861      1362
+            macro avg      0.887     0.857     0.847      1362
+         weighted avg      0.886     0.861     0.850      1362

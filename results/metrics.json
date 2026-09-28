@@ -1,0 +1,185 @@
+{
+  "classes": [
+    "Indian Cuckoo",
+    "Indian Eagle-Owl",
+    "Purple-rumped Sunbird",
+    "Zitting Cisticola",
+    "Red-vented Bulbul"
+  ],
+  "n_clips": 1362,
+  "n_recordings": 261,
+  "summary": {
+    "zero_shot": {
+      "clip_accuracy": 0.8612,
+      "clip_balanced_accuracy": 0.8569,
+      "clip_macro_f1": 0.8473,
+      "recording_accuracy": 0.9502,
+      "recording_macro_f1": 0.9235,
+      "fold_macro_f1_std": 0.0458,
+      "f1 Indian Cuckoo": 0.8975,
+      "f1 Indian Eagle-Owl": 0.6354,
+      "f1 Purple-rumped Sunbird": 0.9349,
+      "f1 Zitting Cisticola": 0.8502,
+      "f1 Red-vented Bulbul": 0.9188,
+      "natural: none of the three": 0.8912,
+      "natural: faint": 0.7742,
+      "natural: noisy": 0.7683,
+      "natural: overlap": 0.9095,
+      "stress: faint": 0.5991,
+      "stress: noisy": 0.6424,
+      "stress: overlap": 0.5455,
+      "stress: overlap, both species in top-2": 0.6843,
+      "clip_macro_f1 (leave-recordist-out, probe_weighted)": NaN,
+      "f1 Indian Cuckoo (leave-recordist-out)": NaN,
+      "f1 Indian Eagle-Owl (leave-recordist-out)": NaN,
+      "f1 Purple-rumped Sunbird (leave-recordist-out)": NaN,
+      "f1 Zitting Cisticola (leave-recordist-out)": NaN,
+      "f1 Red-vented Bulbul (leave-recordist-out)": NaN
+    },
+    "probe": {
+      "clip_accuracy": 0.9648,
+      "clip_balanced_accuracy": 0.9645,
+      "clip_macro_f1": 0.965,
+      "recording_accuracy": 0.9732,
+      "recording_macro_f1": 0.967,
+      "fold_macro_f1_std": 0.0174,
+      "f1 Indian Cuckoo": 0.9727,
+      "f1 Indian Eagle-Owl": 0.9496,
+      "f1 Purple-rumped Sunbird": 0.9675,
+      "f1 Zitting Cisticola": 0.9859,
+      "f1 Red-vented Bulbul": 0.9493,
+      "natural: none of the three": 0.986,
+      "natural: faint": 0.9296,
+      "natural: noisy": 0.9413,
+      "natural: overlap": 0.9432,
+      "stress: faint": 0.663,
+      "stress: noisy": 0.7841,
+      "stress: overlap": 0.6087,
+      "stress: overlap, both species in top-2": 0.8943,
+      "clip_macro_f1 (leave-recordist-out, probe_weighted)": NaN,
+      "f1 Indian Cuckoo (leave-recordist-out)": NaN,
+      "f1 Indian Eagle-Owl (leave-recordist-out)": NaN,
+      "f1 Purple-rumped Sunbird (leave-recordist-out)": NaN,
+      "f1 Zitting Cisticola (leave-recordist-out)": NaN,
+      "f1 Red-vented Bulbul (leave-recordist-out)": NaN
+    },
+    "probe_weighted": {
+      "clip_accuracy": 0.9655,
+      "clip_balanced_accuracy": 0.9653,
+      "clip_macro_f1": 0.9658,
+      "recording_accuracy": 0.9732,
+      "recording_macro_f1": 0.967,
+      "fold_macro_f1_std": 0.0162,
+      "f1 Indian Cuckoo": 0.9727,
+      "f1 Indian Eagle-Owl": 0.9516,
+      "f1 Purple-rumped Sunbird": 0.9693,
+      "f1 Zitting Cisticola": 0.9859,
+      "f1 Red-vented Bulbul": 0.9493,
+      "natural: none of the three": 0.986,
+      "natural: faint": 0.9326,
+      "natural: noisy": 0.9413,
+      "natural: overlap": 0.9453,
+      "stress: faint": 0.663,
+      "stress: noisy": 0.7841,
+      "stress: overlap": 0.6101,
+      "stress: overlap, both species in top-2": 0.895,
+      "clip_macro_f1 (leave-recordist-out, probe_weighted)": 0.9598,
+      "f1 Indian Cuckoo (leave-recordist-out)": 0.9627,
+      "f1 Indian Eagle-Owl (leave-recordist-out)": 0.9484,
+      "f1 Purple-rumped Sunbird (leave-recordist-out)": 0.9635,
+      "f1 Zitting Cisticola (leave-recordist-out)": 0.9806,
+      "f1 Red-vented Bulbul (leave-recordist-out)": 0.9437
+    },
+    "full": {
+      "clip_accuracy": 0.9486,
+      "clip_balanced_accuracy": 0.9488,
+      "clip_macro_f1": 0.9486,
+      "recording_accuracy": 0.9732,
+      "recording_macro_f1": 0.9634,
+      "fold_macro_f1_std": 0.0295,
+      "f1 Indian Cuckoo": 0.9491,
+      "f1 Indian Eagle-Owl": 0.9472,
+      "f1 Purple-rumped Sunbird": 0.9384,
+      "f1 Zitting Cisticola": 0.9628,
+      "f1 Red-vented Bulbul": 0.9455,
+      "natural: none of the three": 0.9632,
+      "natural: faint": 0.9238,
+      "natural: noisy": 0.9238,
+      "natural: overlap": 0.9368,
+      "stress: faint": 0.7408,
+      "stress: noisy": 0.8106,
+      "stress: overlap": 0.5536,
+      "stress: overlap, both species in top-2": 0.8135,
+      "clip_macro_f1 (leave-recordist-out, probe_weighted)": NaN,
+      "f1 Indian Cuckoo (leave-recordist-out)": NaN,
+      "f1 Indian Eagle-Owl (leave-recordist-out)": NaN,
+      "f1 Purple-rumped Sunbird (leave-recordist-out)": NaN,
+      "f1 Zitting Cisticola (leave-recordist-out)": NaN,
+      "f1 Red-vented Bulbul (leave-recordist-out)": NaN
+    }
+  },
+  "confidence_threshold": {
+    "threshold": 0.9158380627632141,
+    "coverage": 0.906754772393539,
+    "accuracy_when_confident": 0.9805668016194332,
+    "per_class": {
+      "Indian Cuckoo": {
+        "coverage": 0.9218106995884774,
+        "accuracy_when_confident": 0.9955357142857143
+      },
+      "Indian Eagle-Owl": {
+        "coverage": 0.8587786259541985,
+        "accuracy_when_confident": 0.9688888888888889
+      },
+      "Purple-rumped Sunbird": {
+        "coverage": 0.9298892988929889,
+        "accuracy_when_confident": 1.0
+      },
+      "Zitting Cisticola": {
+        "coverage": 0.8896797153024911,
+        "accuracy_when_confident": 0.976
+      },
+      "Red-vented Bulbul": {
+        "coverage": 0.9311475409836065,
+        "accuracy_when_confident": 0.9647887323943662
+      }
+    }
+  },
+  "confusion_matrix_clip": [
+    [
+      233,
+      1,
+      5,
+      1,
+      3
+    ],
+    [
+      3,
+      242,
+      0,
+      9,
+      8
+    ],
+    [
+      6,
+      1,
+      259,
+      2,
+      3
+    ],
+    [
+      0,
+      2,
+      7,
+      272,
+      0
+    ],
+    [
+      6,
+      3,
+      10,
+      0,
+      286
+    ]
+  ]
+}

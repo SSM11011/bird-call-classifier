@@ -1,0 +1,11 @@
+Note: Trying to resync...
+Note: Skipped 18 bytes in input.
+no audio for: ['Oriental Magpie-Robin'] -> training on 5 classes
+thresholds: faint <= -27.3 dBFS, noisy <= 10.9 dB SNR
+                       recordings  clips  faint  noisy  overlap
+species                                                        
+Indian Cuckoo                  60    243     53     66      112
+Indian Eagle-Owl               21    262     82     87       28
+Purple-rumped Sunbird          60    271     49     46       47
+Red-vented Bulbul              60    305     74     97      161
+Zitting Cisticola              60    281     83     45      127
